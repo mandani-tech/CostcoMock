@@ -1,0 +1,21 @@
+body{
+    background-color: lightgray;
+}
+
+#covid19{
+    background-color: #f5a911;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.icons{
+    height: 100%;
+    width: 2em;
+}
+
+.inputs{
+    padding: 1em;
+    margin: 0.5em;
+    height: 1em;
+}
