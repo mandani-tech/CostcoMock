@@ -1,12 +1,64 @@
 body{
     background-color: lightgray;
 }
+#Top-COntainer{
 
+    display: grid;
+    grid-template-columns: repeat(11,1fr);
+    grid-template-rows: repeat(11,1fr);
+}
 #covid19{
-    background-color: #f5a911;
+    grid-column: 1/12;
+    grid-row: 1;
+    font-size: 1.2em;
+    height: 1.7em;
+    font-weight: bold;
+    background-color: #ffbc13;
     text-align: center;
     text-decoration: underline;
     font-weight: bold;
+}
+
+#logo{
+    grid-column: 2;
+    grid-row: 2/5;
+    height: 7em;
+    width: auto;
+
+}
+
+#searchbar{
+    grid-column: 3/9;
+    grid-row: 3/5;
+    height: 5em;
+    width: auto;
+
+
+}
+
+#searbar-input{
+    width: 100%;
+    margin: 1em;
+    font-size: 1.2em;
+
+}
+
+#cart{
+    grid-column: 10;
+    grid-row: 3;
+    margin: 0.5em;
+
+}
+
+#signIn{
+    grid-column: 10;
+    grid-row: 3;
+}
+#dropdown-findWarehouse{
+    grid-column: 8/11;
+    grid-row: 2;
+
+
 }
 
 .icons{
@@ -19,3 +71,19 @@ body{
     margin: 0.5em;
     height: 1em;
 }
+ #findWarehouse{
+     color: white;
+     background-color: blue;
+     text-align: center;
+     font-weight: bold;
+     width: 15em;
+     padding: 0.5em;
+     margin: .3em;
+ }
+
+ #navbar{
+     grid-column: 1/12;
+     grid-row: 5;
+     background-color: blue;
+     color: white;
+ }

@@ -11,21 +11,54 @@
 
 </head>
 <body>
+<div id="Top-COntainer">
 <div id="covid19">Coronavirus Updates 7/29/20. Learn More.</div>
 <!--Yellow covid banner-->
-<div class="dropdown">
-    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+<img id="logo" src="Costco_Logo-1.png" height="146" width="507"/>
+<div id="searchbar"><form action=""><input id="searbar-input" type="text"  placeholder="Search"></form></div>
+<div id="signIn">Sign/In |
+<img id="cart" src = "icons8-shopping-cart-96 (1).png" height="30" width="30"/></div>
+
+<div  id="dropdown-findWarehouse" class="dropdown" style="width: max-content">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Find a Warehouse
         <span class="caret"></span></button>
     <ul class="dropdown-menu">
-       <li><p class="inputs">City, State or Zip </p></li>
+        <li><p class="inputs">City, State or Zip </p></li>
         <li><input class="inputs" type="text" label="City, State or Zip"></li>
         <li><a href="#"><img class="icons" src="icons8-gas-station-30.png"/>  Gas Station</a></li>
         <li><a href="#"> <img class="icons" src="icons8-flat-tire-50.png">Tire Center</a></li>
         <li><a href="#"> <img class="icons" src="icons8-restaurant-50.png" alt="">Food Court</a></li>
         <li><a href="#"> <img class ="icons"src="icons8-listen-40.png" alt="">Hearing Aids</a></li>
+        <li><button id="findWarehouse">Find a Warehouse</button></li>
+
     </ul>
 </div>
+    <nav id="navbar" class="navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Shop All Depatments</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Grocery</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Business Delivery
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Grocery</a></li>
+                        <li><a href="#">Business Delivery</a></li>
+                        <li><a href="#">Optical</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Optical</a></li>
+                <li><a href="#">Page 3</a></li>
+            </ul>
+        </div>
+    </nav>
 
+
+
+
+</div>
 
 </body>
 
